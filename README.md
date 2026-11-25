@@ -2,6 +2,8 @@
 
 A small Thunderbird extension for clearing out repeat mail from several senders at once.
 
+![How it works](docs/poster.png)
+
 Newsletters, course promos, shop updates. You don't read them, you don't want to keep them, and they pile up by the hundred. Gmail has "Filter messages like these" for this. Thunderbird has nothing built in, and the old add-on that did it (Gather the senders) no longer installs on current versions.
 
 ## How it works
