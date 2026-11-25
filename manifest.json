@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Filter by these senders",
+  "version": "1.2",
+  "description": "Quick Filter the message list by the senders of all selected messages.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "filter-by-senders@maks.top",
+      "strict_min_version": "128.0"
+    }
+  },
+  "permissions": ["menus", "messagesRead", "accountsRead"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
