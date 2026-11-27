@@ -32,7 +32,7 @@ From source:
 ```bash
 git clone https://github.com/NickelFace/thunderbird-filter-by-senders.git
 cd thunderbird-filter-by-senders
-zip filter-by-senders.xpi manifest.json background.js
+zip -r filter-by-senders.xpi manifest.json background.js icons
 ```
 
 For quick testing without installing, use Debug Add-ons > Load Temporary Add-on and pick `manifest.json`.

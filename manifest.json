@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Filter by these senders",
-  "version": "1.2",
+  "version": "1.3",
   "description": "Quick Filter the message list by the senders of all selected messages.",
   "browser_specific_settings": {
     "gecko": {
@@ -9,6 +9,7 @@
       "strict_min_version": "128.0"
     }
   },
+  "icons": { "16": "icons/icon.svg", "32": "icons/icon.svg", "64": "icons/icon.svg" },
   "permissions": ["menus", "messagesRead", "accountsRead"],
   "background": {
     "scripts": ["background.js"]
